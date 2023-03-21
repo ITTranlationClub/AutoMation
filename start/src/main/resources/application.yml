@@ -1,0 +1,12 @@
+server:
+    port: 8080
+spring:
+    application:
+        name: automation
+    cloud:
+        nacos:
+            discovery:
+                namespace: public
+                password: nacos
+                server-addr: mse-6d50f4f0-p.nacos-ans.mse.aliyuncs.com:8848
+                username: nacos

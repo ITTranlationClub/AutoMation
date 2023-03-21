@@ -1,0 +1,8 @@
+spring:
+    cloud:
+        nacos:
+            config:
+                contextPath: /nacos
+                password: nacos
+                server-addr: mse-6d50f4f0-p.nacos-ans.mse.aliyuncs.com:8848
+                username: nacos
