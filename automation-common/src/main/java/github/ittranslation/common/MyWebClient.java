@@ -6,6 +6,7 @@ import com.gargoylesoftware.htmlunit.SilentCssErrorHandler;
 import com.gargoylesoftware.htmlunit.WebClient;
 import com.gargoylesoftware.htmlunit.html.HtmlPage;
 import com.gargoylesoftware.htmlunit.util.Cookie;
+import lombok.Data;
 
 import java.io.IOException;
 import java.util.List;
@@ -17,6 +18,7 @@ import java.util.List;
  * @email: 630268696@qq.com
  * @create: 2023-03-03 00:07
  **/
+@Data
 public class MyWebClient {
 
     // 网页访问凭证

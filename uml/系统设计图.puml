@@ -1,0 +1,15 @@
+@startuml
+'https://plantuml.com/deployment-diagram
+package automation [
+自动抓取网站文本/图片资源
+]
+package aiTranslation [
+根据要求个性化定制翻译模式
+]
+component nacos[
+注册/配置中心 网关 限制IP访问
+]
+automation --> aiTranslation
+automation --> nacos
+aiTranslation --> nacos
+@enduml

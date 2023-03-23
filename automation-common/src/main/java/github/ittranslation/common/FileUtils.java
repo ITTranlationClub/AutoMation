@@ -14,10 +14,18 @@ import java.util.Calendar;
  **/
 public class FileUtils {
 
-    static String htmlSuffix = ".html";
+    static String htmlSuffix = ".txt";
     static String mdSuffix = ".md";
 
     static DateFormat DATE_FORMAT = new SimpleDateFormat("yyyy-MM-dd-HH-mm-SS");
+
+    public static void writeMDFile(String dirName, String fileName, String content) {
+        writeToFile(dirName, fileName + mdSuffix, content);
+    }
+
+    public static void writeHTMLFile(String dirName, String fileName, String content) {
+        writeToFile(dirName, fileName + htmlSuffix, content);
+    }
 
     public static void writeToFile(String fileName, String content) {
         String time = DATE_FORMAT.format(Calendar.getInstance().getTime());
@@ -67,12 +75,11 @@ public class FileUtils {
                     System.out.println("文件创建失败！");
                 }
             }
-            BufferedReader input = new BufferedReader(new FileReader(f));
-            while ((s = input.readLine()) != null) {
-                s1 += s + "\n";
-            }
-            System.out.println("原文件内容：" + s1);
-            input.close();
+//            BufferedReader input = new BufferedReader(new FileReader(f));
+//            while ((s = input.readLine()) != null) {
+//                s1 += s + "\n";
+//            }
+//            input.close();
             s1 += content;
             output = new BufferedWriter(new FileWriter(f));
             output.write(s1);
