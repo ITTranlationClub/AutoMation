@@ -1,7 +1,7 @@
-package github.ittranslation.automation.api;
+package github.ittranslation.automation.chatgpt.automation.api;
 
 
-import github.ittranslation.automation.api.model.UserModel;
+import github.ittranslation.automation.chatgpt.automation.api.model.UserModel;
 
 /**
  * @author <a href="mailto:chenxilzx1@gmail.com">theonefx</a>

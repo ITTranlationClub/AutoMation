@@ -5,7 +5,7 @@ package github.ittranslation.automation.chatgpt;/*
  * @Create: ${DATE}
  */
 
-public class Main {
+public class AutomationChatgptApplication {
     public static void main(String[] args) {
         System.out.println("Hello world!");
     }

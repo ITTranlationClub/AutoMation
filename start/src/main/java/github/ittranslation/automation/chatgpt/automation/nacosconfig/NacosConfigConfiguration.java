@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package github.ittranslation.automation.nacosconfig;
+package github.ittranslation.automation.chatgpt.automation.nacosconfig;
 
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;

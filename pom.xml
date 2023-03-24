@@ -32,6 +32,7 @@
         <module>automation-web</module>
         <module>start</module>
         <module>automation-common</module>
+        <module>automation-chatgpt</module>
     </modules>
 
     <dependencyManagement>

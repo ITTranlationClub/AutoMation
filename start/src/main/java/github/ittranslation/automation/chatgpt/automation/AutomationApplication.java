@@ -1,4 +1,4 @@
-package github.ittranslation.automation;
+package github.ittranslation.automation.chatgpt.automation;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

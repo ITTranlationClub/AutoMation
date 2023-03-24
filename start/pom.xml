@@ -76,7 +76,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>${spring-boot.version}</version>
                 <configuration>
-                    <mainClass>github.ittranslation.automation.AutomationApplication</mainClass>
+                    <mainClass>github.ittranslation.automation.chatgpt.automation.AutomationApplication</mainClass>
                     <skip>false</skip>
                 </configuration>
                 <executions>

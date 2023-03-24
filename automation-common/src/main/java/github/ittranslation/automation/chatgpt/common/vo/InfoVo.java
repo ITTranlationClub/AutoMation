@@ -1,4 +1,4 @@
-package github.ittranslation.common.vo;
+package github.ittranslation.automation.chatgpt.common.vo;
 
 /**
  * @program: EduAutomation

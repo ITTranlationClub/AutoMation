@@ -1,4 +1,4 @@
-package github.ittranslation.automation.api.model;
+package github.ittranslation.automation.chatgpt.automation.api.model;
 
 import lombok.Data;
 

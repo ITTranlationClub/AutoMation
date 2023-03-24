@@ -1,4 +1,4 @@
-package github.ittranslation.common;
+package github.ittranslation.automation.chatgpt.common;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;

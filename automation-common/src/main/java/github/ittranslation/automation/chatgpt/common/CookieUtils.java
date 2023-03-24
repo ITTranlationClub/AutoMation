@@ -1,4 +1,4 @@
-package github.ittranslation.common;
+package github.ittranslation.automation.chatgpt.common;
 
 import cn.hutool.json.*;
 import java.util.ArrayList;

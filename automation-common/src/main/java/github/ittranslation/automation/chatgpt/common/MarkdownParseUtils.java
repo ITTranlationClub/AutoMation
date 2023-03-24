@@ -1,6 +1,6 @@
-package github.ittranslation.common;
+package github.ittranslation.automation.chatgpt.common;
 
-import github.ittranslation.common.vo.InfoVo;
+import github.ittranslation.automation.chatgpt.common.vo.InfoVo;
 import cn.hutool.json.JSONArray;
 import cn.hutool.json.JSONObject;
 import cn.hutool.json.JSONUtil;

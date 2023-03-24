@@ -1,4 +1,4 @@
-package github.ittranslation.common;
+package github.ittranslation.automation.chatgpt.common;
 
 import com.gargoylesoftware.htmlunit.BrowserVersion;
 import com.gargoylesoftware.htmlunit.NicelyResynchronizingAjaxController;
