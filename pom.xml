@@ -25,11 +25,7 @@
     </properties>
 
     <modules>
-        <module>automation-api</module>
-        <module>automation-dao</module>
         <module>automation-manager</module>
-        <module>automation-service</module>
-        <module>automation-web</module>
         <module>start</module>
         <module>automation-common</module>
         <module>automation-chatgpt</module>
